@@ -8,8 +8,9 @@
     "test": "mocha --require should --reporter spec --check-leaks"
   },
   "dependencies": {
+    "methods": "1.x",
     "superagent": "^1.7.2",
-    "methods": "1.x"
+    "superagent-use": "0.0.1"
   },
   "devDependencies": {
     "body-parser": "~1.13.2",
